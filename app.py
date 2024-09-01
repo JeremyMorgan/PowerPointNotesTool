@@ -1,6 +1,22 @@
 from pptx import Presentation
 import re
 
+# Copyright (c) 2024 Jeremy Morgan
+# This file is part of PowerPointNotesTool
+#
+# PowerPointNotesTool is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# PowerPointNotesTool is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with PowerPointNotesTool.  If not, see <https://www.gnu.org/licenses/>.
+
 def extract_slide_notes(file_path):
     """
     Extracts slide notes from a text file formatted with specific patterns.
